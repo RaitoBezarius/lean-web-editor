@@ -4,6 +4,7 @@
   "description": "Lean Web Editor",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gabriel Ebner",
@@ -13,7 +14,7 @@
     "@types/react": "16.8.17",
     "@types/react-dom": "16.8.0",
     "ajv": "^6.10.0",
-    "lean-client-js-browser": "^2.0.1",
+    "@raitobezarius/lean-client-js-browser": "^2.0.3",
     "monaco-editor": "0.10.1",
     "react": "16.2.0",
     "react-dom": "16.2.1",
